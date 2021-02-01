@@ -1,149 +1,142 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-
-</head>
-
-<body bgcolor="#000000">
-    <div align="center">
-        <font color="#008000">
-            <style>
-                a {
-                    color: #FFFFFF;
-                    text-shadow: 0 0 5px #00FFFF, 0 0 10px #00FFFF, 0 0 20px #00FFFF, 0 0 45px #00FFFF, 0 0 40px #00FFFF;
-                }
-
-                a:link {
-                    text-decoration: none;
-                }
-
-                a:visited {
-                    text-decoration: none;
-                }
-
-                a:hover {
-                    text-decoration: underline;
-                }
-
-                a:active {
-                    text-decoration: underline;
-                }
-
-                body {
-                    background: #000;
-                    height: 100%;
-                    font-family: "Orbitron", Orbitron, Orbitron;
-                }
-
-                h1 {
-                    color: #333;
-                    font-size: 50px;
-                    margin: 1px auto;
-                    text-align: center;
-                    text-transform: uppercase;
-                }
-
-                .footer {
-
-                    text-align: center;
-                    margin-left: auto;
-                    margin-right: auto;
-                    bottom: 10px;
-                    color: #FFFFFF;
-                    text-shadow: 0 0 5px #00FFFF, 0 0 10px #00FFFF, 0 0 20px #00FFFF, 0 0 45px #00FFFF, 0 0 40px #00FFFF;
-                }
-
-                .neon {
-                    color: #FFFFFF;
-                    text-shadow: 0 0 5px #00FFFF, 0 0 10px #00FFFF, 0 0 20px #00FFFF, 0 0 45px #00FFFF, 0 0 40px #00FFFF;
-                }
-            </style>
-            <script>
-                window.onload = function () {
-                    var h1 = document.getElementsByTagName("h1")[0],
-                        text = h1.innerText || h1.textContent,
-                        split = [],
-                        i, lit = 0,
-                        timer = null;
-                    for (i = 0; i < text.length; ++i) {
-                        split.push("<span>" + text[i] + "</span>");
-                    }
-                    h1.innerHTML = split.join("");
-                    split = h1.childNodes;
-
-                    var flicker = function () {
-                        lit += 0.01;
-                        if (lit >= 1) {
-                            clearInterval(timer);
-                        }
-                        for (i = 0; i < split.length; ++i) {
-                            if (Math.random() < lit) {
-                                split[i].className = "neon";
-                            } else {
-                                split[i].className = "red";
-                            }
-                        }
-                    }
-                    setInterval(flicker, 100);
-                }
-            </script>
-
-        </font>
-        <center><br>
-            <h1>Haikal Nagib</h1><br><br><br> This page is under development &#9874; <br>
-            --------------------------------<br><br>
-            <br>&#8917; Find Me Here &#8917;<br>
-            <br><br>
-            <a href="https://instagram.com/nagib_sy" target="_blank">Instagram</a> -
-            <a href="https://wa.me/6285273360540" target="_blank">Whatsapp</a> -
-            <a href="https://www.facebook.com/nagib.syahab.5" target="_blank">Facebook</a> -
-            <a href="https://line.me/ti/p/z_g6LfmeRq" target="_blank">Line</a>
-            <br>
-            <br>
-            <a href="https://zen.ly/nagib_sy" target="_blank">Zen.Ly</a> -
-            <a href="mailto:realnagibsy@gmail.com" target="_blank">E-Mail</a>
-            <br>
-            <br>
-            <br>&#8917; Donate Me &#8917;<br><br>
-            <a href="https://paypal.me/nagibsy" target="_blank">Paypal</a>
-            <br><br>
-            <br><br><br>
-            <title>Hell'O World</title>
-            <br><br><br>
-            <div class="footer">
-                <br>
-                <br>
-                <br>
-                <br>
-                This Page Made With &#9829;
+    <head>
+        <title>Hello World!</title>
+        <link rel="icon" href="https://img.icons8.com/office/16/000000/filled-like--v2.png" type="image/x-icon">
+        <style>
+            
+            a {
+                color: black;
+                text-decoration: none;
+            }
+            h1:first-child {
+                -webkit-text-stroke-width: 1px;
+                font-size: 40px;
+                -webkit-text-stroke-color: #eeeeee;
+            }
+            div table:nth-child(1) {
+                align:center;
+                width:100%;
+                height:100px;
+                border-collapse: collapse;
+            }
+            samp:nth-child(2){
+                color: white;
+            }
+            td {
+                font-family: monospace;
+            }
+            fieldset {
+                background-color: #eeeeee;
+                border-color:#eeeeee;
+                border-style: solid;
+                
+            }
+            legend {
+                background-color: gray;
+                color: white;
+                padding: 10px 20px;
+                font-size: 15px;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <script src="
+        http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js">
+        </script>
+        <script>
+            alert("Halaman ini saya buat sesuai kemampuan saya");
+            alert("Dan juga belum sesuai tampilannya untuk di mobile :3");
+            alert("Maafin Yach");
+            alert("Love Youu ");
+        </script>
+        <!-- Ini Bagian Header-->
+        <header>
+            <div>
+                <table >
+                    <td align="center" bgcolor="#eeeeee">
+                        <h1><samp>About Me</samp></h1>
+                    </td>
+                </table>
             </div>
+        </header>
 
-            <style type="text/css">
-                body,
-                td,
-                th {
-                    color: #00FFFF;
-                    font-family: "Courier New", Courier, monospace;
-                }
+        <!-- Ini Bagian ID CARD-->
+        <form action="">
+            <fieldset>
+                <legend><samp>ID CARD</samp></legend>
+                
+                <table cellpadding="7" border="0">
+                    <tr>
+                        <td colspan="5"></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="99" valign="top"><img src="https://i.pinimg.com/originals/50/05/f5/5005f514424141acf70727360add163d.png" width="100px"></td>
+                        <td colspan="4"></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="99"></td>
+                    </tr>
+                    <tr>
+                        <td>Name</td>
+                        <td>:</td>
+                        <td>Muhammad Haikal Nagib</td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>:</td>
+                        <td>St. Slamet Riyadi Lrg.Berigin Jaya No.106-232</td>
+                    </tr>
+                    <tr>
+                        <td>BOD</td>
+                        <td>:</td>
+                        <td>10 June 2003</td>
+                    </tr>
+                    <tr>
+                        <td>College</td>
+                        <td>:</td>
+                        <td>TK</td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>:</td>
+                        <td><a href="mailto:haikalllnagib@gmail.com">haikalllnagib@gmail.com</a></td>
+                    </tr>
+                    <tr>
+                        <td>GitHub</td>
+                        <td>:</td>
+                        <td>hicall-dev</td>
+                    </tr>
+                </table>
+                <br>
+            </fieldset>
+        </form>
 
-                body {
-                    background-color: black;
-                }
+        <!-- Ini Bagian Donasi-->
+        <form action="">
+            <fieldset>
+                <legend><samp>Support Me Here</samp></legend>
+                <table cellpadding="7" align="center" border="0" width="100%">
+                    <tr>
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr align="center">
+                        <td><a href="https://paypal.me/nagibsy" target="_blank">PayPal</a></td>
+                        <td><a href="https://link.dana.id/qr/nxxhg2r" target="_blank">Dana</a></td>
+                        <td><a href="https://saweria.co/nagibsy" target="_blank">Saweria</a></td>
+                    </tr>
+                    <tr align="center">
+                        <td><a href="https://ghostbin.co/paste/jxd7g/raw" target="_blank">GoPay</a></td>
+                        <td><a href="https://ghostbin.co/paste/jxd7g/raw" target="_blank">Ovo</a></td>
+                        <td><a href="https://ghostbin.co/paste/jxd7g/raw" target="_blank">Shopee Pay</a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
 
-                textarea {
-                    resize: none;
-                }
-            </style>
-            <style type="text/css">
-                body {
-                    background: url(black) repeat center center fixed black;
-                }
-            </style>
-            </head>
-        </center>
-
-    </div>
-</body>
-
+    </body>
 </html>
